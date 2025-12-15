@@ -1,48 +1,28 @@
 # UAS Web Framework
 
-## 🌿 Struktur Branch
+## 📂 Struktur Proyek
 
-Repository ini menggunakan **dua branch utama**, yaitu:
-
-### 🔹 Branch `master` — Frontend
-
-Branch **`master`** digunakan untuk menyimpan **kode frontend**.
-
-📂 Folder utama:
+Struktur folder dalam repository ini adalah sebagai berikut:
 
 ```
-my-frontend/
+UAS-Web-Framework
+├── mybackend/
+└── my-frontend/
 ```
 
-👉 **Untuk menjalankan atau melihat kode frontend**, pastikan berada di branch:
+### 🔹 `mybackend`
 
-```bash
-git checkout master
-```
+Berisi source code **backend** aplikasi (server-side), termasuk pengelolaan API, database, dan logika bisnis.
 
----
+### 🔹 `my-frontend`
 
-### 🔹 Branch `main` — Backend
-
-Branch **`main`** digunakan untuk menyimpan **kode backend**.
-
-📂 Folder utama:
-
-```
-mybackend/
-```
-
-👉 **Untuk menjalankan atau melihat kode backend**, pastikan berada di branch:
-
-```bash
-git checkout main
-```
+Berisi source code **frontend** aplikasi (client-side), termasuk tampilan antarmuka pengguna.
 
 ---
 
 ## ▶️ Video Demo Aplikasi
 
-Berikut adalah video demo dan penjelasan singkat mengenai aplikasi:
+Berikut adalah video demo dan penjelasan singkat mengenai aplikasi yang dikembangkan:
 
 🔗 **YouTube:**
 [https://youtu.be/FrRrRSeXfNg](https://youtu.be/FrRrRSeXfNg)
